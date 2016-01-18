@@ -31,7 +31,9 @@ But there're a few problems using this solution when it comes to a situation lik
 It's very complicated to call `setNavigationBarHidden` every now and then.
 When two view controllers of hide-navigation-bar-view-controller come along, the navigation bar will flash when push and pop.
 
--
+--
+
+
 `UINavigationControllerDelegate` is very helpful to do a such thing! EASY.
 ```
 extension Xxx: UINavigationControllerDelegate {
