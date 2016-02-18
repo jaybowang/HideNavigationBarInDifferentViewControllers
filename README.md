@@ -1,3 +1,8 @@
+
+# DEPRECATED!
+
+
+----
 # HideNavigationBarInDifferentViewControllers
 Use UINavigationControllerDelegate to hide navigation bar in different view controllers.
 
